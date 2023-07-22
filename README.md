@@ -41,21 +41,17 @@ External Module. ( Managed by NPM )
 <li>
 writeFile("file name", "file content", callback function) - we can create a file using this method!
 
-```html
-Note: if you have already created an account using this method and you try to
+`Note: if you have already created an account using this method and you try to
 create another file using this method then this method over write you older file
-when your new file name is same to you older file.
-```
+when your new file name is same to you older file.`
 
 </li>
 <li>
 appendFile("file name", "file content", callback function) - we can append any content to our file using this method
 
-```html
-Note: if you have a file already and you want to add some new content to your
+`Note: if you have a file already and you want to add some new content to your
 file you can do this using this " appenFile " method. This method appeded
-content in your selected file.
-```
+content in your selected file.`
 
 </li>
 <li>
@@ -70,14 +66,16 @@ perameter, we can access those perameter.`
 rename("current file name", "update file name", callback Function) - we can rename our exsiting file name using this method
 </li>
 <li>
-Unlink() - we can delete any file using this method
+Unlink("file name", callback function) - we can delete our selected file using this method
 </li>
 <li>
-Exists() - we can find is file or anything what you finding is here or not using this method
+Exists("file name", callback function) - we can find is our file here or not using this method
 </li>
 </ol>
 
 # sync
+
+> the difference between async and sync is just callback function. When we use fs module we can use async method and we also use sync method from fs module. When we use async method in the fs module we will define a callback function in our method, but when we will use sync method we cann't use callback function in our fs sync method.
 
 <ol>
 <li>
