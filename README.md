@@ -61,11 +61,9 @@ content in your selected file.
 <li>
 readFile("file name", "utf-8", "callback function - this function (err,data) received ) - we can read file content using this method
 
-```html
-Note: Why we are use "utf-8"? it is an coding system. if you not use this you
+`Note: Why we are use "utf-8"? it is an coding system. if you not use this you
 will not read you currect data. And the callback function have error and data
-perameter, we can access those perameter.
-```
+perameter, we can access those perameter.`
 
 </li>
 <li>
