@@ -59,15 +59,17 @@ content in your selected file.
 
 </li>
 <li>
-readFile("file name", "utf-8", "callback function - this function (err,data) received ) - we can read anything using this method
+readFile("file name", "utf-8", "callback function - this function (err,data) received ) - we can read file content using this method
 
 ```html
-Note: Why we are use "utf-8"? it is
+Note: Why we are use "utf-8"? it is an coding system. if you not use this you
+will not read you currect data. And the callback function have error and data
+perameter, we can access those perameter.
 ```
 
 </li>
 <li>
-rename() - we can rename anything using this method
+rename("current file name", "update file name", callback Function) - we can rename our exsiting file name using this method
 </li>
 <li>
 Unlink() - we can delete any file using this method
