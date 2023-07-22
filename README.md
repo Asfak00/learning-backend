@@ -59,7 +59,12 @@ content in your selected file.
 
 </li>
 <li>
-readFile() - we can read anything using this method
+readFile("file name", "utf-8", "callback function - this function (err,data) received ) - we can read anything using this method
+
+```html
+Note: Why we are use "utf-8"? it is
+```
+
 </li>
 <li>
 rename() - we can rename anything using this method
